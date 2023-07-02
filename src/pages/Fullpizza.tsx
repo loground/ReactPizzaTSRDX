@@ -31,7 +31,7 @@ const FullPizza: React.FC = () => {
     <div className="container">
       <img src={pizza.imageUrl} alt="ass" />
       <h2>{pizza.title}</h2>
-      <p> ммм, пиццуля, вот это ваще хорошая </p>
+      <p> This pizza is amazing and has beautiful taste </p>
       <h4>{pizza.price}</h4>
     </div>
   );
