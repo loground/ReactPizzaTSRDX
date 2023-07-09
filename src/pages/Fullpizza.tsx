@@ -24,12 +24,12 @@ const FullPizza: React.FC = () => {
   }, []);
 
   if (!pizza) {
-    return <p>загрузка</p>;
+    return <p>Загрузка Страницы</p>;
   }
 
   return (
     <div className="container">
-      <img src={pizza.imageUrl} alt="ass" />
+      <img src={pizza.imageUrl} alt="ass" style={{ width: '350px', height: '350px' }} />
       <h2>{pizza.title}</h2>
       <p> This pizza tastes good</p>
       <h4>{pizza.price}</h4>
